@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fcbc29;
+}
+body {
+  font-family: poppins;
+  height: 3000px;
+}
+.header {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header > nav > button {
+  background-color: white;
+  padding: 8px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.title h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.title h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.container {
+  margin: auto;
+  width: 70%;
+  height: 1100px;
+  border: 2px solid;
+}
+.middlebox {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.imgbox {
+  width: 700px;
+  text-align: center;
+  padding-top: 3px;
+}
+.cust-comment {
+  width: 70%;
+  text-align: left;
+  font-size: 20px;
+  margin: auto;
+}
+.cust-comment p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imgcust img {
+  width: 50px;
+  height: 50px;
+  line-height: 0.5px;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+.imgcust h3 {
+  display: inline-block;
+}
+.imgcust p {
+  margin-left: 58px;
+  margin-top: -18px;
+}
+.offers {
+  width: 70%;
+  text-align: left;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.offers li {
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.rightbox {
+  width: 30%;
+  height: 700px;
+  text-align: left;
+  border: 4px solid;
+  padding: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.rightbox h2 {
+  margin-bottom: 30px;
+}
+.rightbox p {
+  margin-bottom: 50px;
+}
+.inputbox {
+  margin-top: 30px;
+}
+.rightbox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.rightbox select {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+.rightbox button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+button {
+  cursor: pointer;
+}
+.ourpackage {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.countainer-package {
+  width: 70%;
+  height: 200px;
+  border: 1px solid;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}
+.container-argument {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+.argument {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.argument h1 {
+  margin-bottom: 30px;
+}
+.argument button {
+  margin-top: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
